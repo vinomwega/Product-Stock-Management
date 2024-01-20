@@ -1,0 +1,65 @@
+body{
+    
+    background-image: url(assets/new\ background.jpeg);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #073333;
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    float: inline-end;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    margin-top:auto;
+    padding: 0px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+#mark{
+    opacity: 20%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.grid-table{
+    width: 100%; 
+    text-align: center
+}
+
+.addItem{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+header{
+    text-align: center;
+    
+}
+#nore{
+    float: left;
+}
+img{
+    width: 5cm; /* Updated width */
+    border-radius: 125%; /* Added to make the image circular */
+    height: 2.5cm; /* Updated height */
+}
+
+table{
+    background-color: #6cd516;
+    border-radius: 20%;
+}
+    

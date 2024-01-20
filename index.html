@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Stock Management</title>
+    <link href="./style.css" rel="Stylesheet">
+
 </head>
+
 <body>
+    <div class="container">
+        <header>
+            <!--<img src="./assets/pop-art-background-0r3dy8ztjxspv3lk.webp">-->
+            <h1>Skin care stock Management</h1>
+            <img src="./assets/nwe blissful logo.jpeg" alt="">
+            
+        </header>
+
+        <table class="grid-table">
+            <thead>
+                <tr>
+                    <th>Item name</th> 
+                    <th>Quantity</th>
+                    <th>Date Bought</th>
+                    <th>Supplier</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Vitamin C serum</td>
+                    <td>150</td>
+                    <td>18-01-2024</td>
+                    <td>Esmeralda</td>
+                    <td>
+                        <button id="edit" class="btn-primary">Edit/Save</button>
+                        <button id="delet" class="btn-erase">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Retinol serum</td>
+                    <td>150</td>
+                    <td>18-01-2024</td>
+                    <td>Esmeralda</td>
+                    <td>
+                        <button id="edit" class="btn-primary">Edit/Save</button>
+                        <button id="delet" class="btn-erase">Delete</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="addItem">
+            <input type="text" id="itemName" placeholder="Item name">
+            <input type="number" id="quantity" placeholder="Quantity">
+            <input type="date" id="dateBought" placeholder="Date Bought">
+            <input type="text" id="supplier" placeholder="Supplier">
+            <button id="addItemBtn">Add Item</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+
+        <p id="mark">We've got it all</p>
+        <footer class="footer">
+            <div id="contact">
+                <h4 id="nore">Contact us @:</h4>
+                <p>email: Blissfulskininfo.co.ke</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./main.js"></script>
     
 </body>
-</html>
+
+
+       
+      
