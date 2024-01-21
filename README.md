@@ -2,6 +2,8 @@
 
 This is a simple stock management system for skin-care products that will be mostly used by beauty salons and beauty supliers. It allows users to dynamically create,read,update and delete items from their inventory. Its  built using HTML, CSS, and JavaScript as its core languages.
 
+This is a link to the live page of the stock management system https://vinomwega.github.io/Product-Stock-Management/
+
 ## Table of Contents
 
 1. [Features](#features)
