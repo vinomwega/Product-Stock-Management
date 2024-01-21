@@ -25,7 +25,8 @@ p{
     text-align: center;
     font-size: larger;
     font-weight: bolder;
-    
+    /*background-color: purple;*/
+    opacity: 20%;
 }
 
 #mark{
@@ -47,6 +48,8 @@ p{
 
 header{
     text-align: center;
+    /*background-color: purple;*/
+    
     
 }
 #nore{
